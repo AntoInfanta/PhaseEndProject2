@@ -28,7 +28,6 @@ public class OrderFood extends Driver{
 	@When("he clicks Add on the first item of the restaurant page")
 	public void he_clicks_add_on_the_first_item_of_the_restaurant_page() {
 		restaruant.clickAdd();
-//		restaruant.clickAddItem();
 	}
 	@When("he clicks on Checkout button")
 	public void he_clicks_on_checkout_button() {

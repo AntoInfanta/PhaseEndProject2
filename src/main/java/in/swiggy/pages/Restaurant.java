@@ -33,12 +33,7 @@ public class Restaurant {
 		wait.until(ExpectedConditions.visibilityOf(addFood));
 		addFood.click();		
 	}
-	public void clickAddItem(){
-		wait.until(ExpectedConditions.visibilityOf(addItems));
-		if (addItems.isDisplayed())
-				addItems.click();	
-	}
-	
+
 	public void clickCheckout(){
 
 		wait.until(ExpectedConditions.visibilityOf(checkout));
